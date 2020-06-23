@@ -1,0 +1,217 @@
+
+#principal{
+	width: 1300px;
+	height: 520px;
+	background-color:white;
+}
+
+
+#logo{
+	width: 160px;
+	height: 53px;
+	margin-top: 3px;
+	margin-left: 12px;
+	float: left;
+	background-color:white;
+}
+
+#loginpop{
+	width: 100%;
+	height: 20px;
+    box-shadow: 3px 3px 3px grey;
+    position: fixed;
+    background-color:white;
+
+}
+#loginpop a{
+	color: darkslategray;
+	margin-left: 1290px;
+
+}
+
+a{
+	font-family: Century Gothic;
+	font-style:italic;
+	font-size: 14px;
+	margin: 20px;
+	text-decoration: none;
+	color: darkslategray;
+}
+p{
+ 	font-family: Century Gothic;
+	font-style:italic;
+	font-size: 12px;
+	margin: 20px auto;
+	color: white;	
+}
+
+a:hover{
+	 background-color: grey;
+}
+ul{
+	margin-left: 950px;
+    
+}
+
+
+#menu{
+    width: 100%;
+	height: 60px;
+    box-shadow: 3px 3px 3px grey;
+    position: fixed;
+    background-color: white;
+    margin-top: 20px;;
+}
+
+
+#piedepagina{
+	width: 1350;
+	height: 63px;
+	float: left;
+	background-color: darkslategray;
+}
+
+.formlogin{
+	
+	width: 400px;
+	height: 270px;
+    margin: 20px auto;
+	background-color: whitesmoke;
+	margin-bottom: 200px;
+	margin-top: 120px;
+	
+}
+.formlogin p{
+	font-family: Century Gothic;
+	font-style:italic;
+	font-size: 20px;
+	margin-left: 10px;
+	color: black;
+	padding-top: 10px;
+
+}
+
+.contacto{
+	
+	width: 500px;
+	height: 480px;
+	padding-top: 70px;
+    margin: 20px auto;
+	background-color: white;
+	
+}
+
+ .contacto  p{
+    font-family: Century Gothic;
+	font-style:italic;
+	font-size: 12px;
+	color: black;
+	padding-top: 40px;
+	
+}
+
+.slider{
+	width: 1300px;
+	height: 484px;
+	padding-top: 100px;
+}
+
+.slider img{
+
+width: 1000px ;
+height: 460px;
+
+
+}
+
+
+#correo , #correorequerido{
+    width: 190px;
+    font-family: Century Gothic;
+	font-style:italic;
+	font-size: 12px;
+	float: left;
+}
+
+#mensaje{
+    width: 400px;
+    font-family: Century Gothic;
+	font-style:italic;
+	font-size: 12px;	
+}
+
+
+#name{
+	width: 190px;
+	float: left;
+	font-family: Century Gothic;
+	font-style:italic;
+	font-size: 12px;
+  
+}
+
+#apellidos{
+	width: 200px;
+	float: right;
+	font-family: Century Gothic;
+	font-style:italic;
+	font-size: 12px;
+}
+
+#telefono , #numerorequerido{
+	width: 200px;
+	float: left;
+	font-family: Century Gothic;
+	font-style:italic;
+	font-size: 12px;
+	float: right;
+  
+}
+
+#direccion{
+	width: 200px;
+	float: right;
+	font-family: Century Gothic;
+	font-style:italic;
+	font-size: 12px;
+}
+[type=text] , [type=tel] , [type=email], [type=password]{
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  border: 0;
+  border-bottom: 1px solid rgba(0,0,0,.2);
+  height: 45px;
+  line-height: 45px;  
+  margin-bottom: 20px;
+  font-size: 1em;
+  color: rgba(0,0,0,.4);
+}
+
+[type=submit], [type=button] {
+  width: 50%;
+  border: 0;
+  background-color: darkslategray;
+  border-radius: 7px;
+  height: 50px;
+  color: white;
+  font-size: 1em;
+  margin-left: 23%;
+
+}
+
+
+textarea{
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid rgba(0,0,0,.2);
+  height: 70px;
+  margin-top: 60px;
+  font-size: 10px;
+  color: rgba(0,0,0,.4);
+}
+
+
+
